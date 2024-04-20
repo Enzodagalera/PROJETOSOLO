@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #2d2d2d;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    background: #009545;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+}
+
+section h2 {
+    color: #009578;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+}
+
+/* Classes para botões */
+.botao1 {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #009578;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.botao1:hover {
+    background: #007a63;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header, footer {
+        padding: 10px 0;
+    }
+}
+
+.btn-nutricao {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #2f4188; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave para hover */
+}
+
+.btn-nutricao:hover {
+    background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
+}
+
+
+.btn-exercicios {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #2f4188; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave para hover */
+}
+
+.btn-exercicios:hover {
+    background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
+}
+
+.btn-Bemestar {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #2f4188; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave para hover */
+}
+
+.btn-Bemestar:hover {
+    background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
+}
+
+.btn-Dicassaude {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #2f4188; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave para hover */
+}
+
+.btn-Dicassaude:hover {
+    background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
+}
+
+
+.home-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none; /* Remove sublinhado de links */
+    display: inline-block; /* Permite aplicar padding e outros espaçamentos */
+  }
+  .home-button:before {
+    content: '🏠';
+    margin-right: 8px;
+  }
